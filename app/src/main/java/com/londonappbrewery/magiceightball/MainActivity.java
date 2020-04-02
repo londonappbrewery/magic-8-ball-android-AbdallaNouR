@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Random randomNumberGenerator = new Random();
                 int number = randomNumberGenerator.nextInt(4);
-                number = randomNumberGenerator.nextInt(4);
+                number = randomNumberGenerator.nextInt(5);
                 int imageResourceId = ballArray[number];
                 ball.setImageResource(imageResourceId);
                 Log.d("8Ball", "The Ball is ball" + (number + 1));
